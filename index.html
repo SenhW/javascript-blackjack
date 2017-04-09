@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Javascript Blackjack</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <body>
+		<button class="debutton" onClick="deal(1)">Bet $1</button>		<button class="debutton" onClick="deal(5)">Bet $5</button>		<button class="debutton" onClick="deal(10)">Bet $10</button>		<button class="debutton" onClick="deal(20)">Bet $20</button></br>
+		DEALER'S CARDS:<div id="dealercards">.---..---.</br>|///||///|</br>|///||///|</br>|///||///|</br>'---''---'</div>
+		DEALER'S SCORE:<span id="dealerscore"></span></br>
+		YOUR CARDS:<div id="playercards">.---..---.</br>|///||///|</br>|///||///|</br>|///||///|</br>'---''---'</div>
+		YOUR SCORE:<span id="playerscore"></span></br>
+		<button id="htbutton" onClick="hit()">HIT</button>
+		<button id="stbutton" onClick="stand()">Stand</button>
+		<button id="ddbutton" onClick="doubledown()">Double Down</button>
+		<div id="playermoney">$100</div>
+		<div id="message"></div>
+	</body>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
